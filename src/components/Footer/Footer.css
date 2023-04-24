@@ -32,4 +32,8 @@
     .f-content {
         transform: scale(.5);
     }
+      .f-icons{
+        position: absolute;
+        padding-bottom: 2rem;
+    }
 }
