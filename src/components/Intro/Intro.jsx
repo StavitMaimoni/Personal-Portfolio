@@ -31,7 +31,7 @@ const Intro = () => {
                     <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
                     <span>Stavit Maimoni</span>
                     <span>
-                        Driven and Ambitious Full-Stack Developer with high performance capabilities, <br/><br/> 
+                        Driven and Ambitious Full-Stack Developer with high performance capabilities, <br /><br />
                         Dedicated to delivering exceptional results that exceed expectations.
                     </span>
                 </div>
@@ -53,16 +53,22 @@ const Intro = () => {
                 <motion.img
                     initial={{ left: "-36%" }}
                     whileInView={{ left: "-24%" }}
-                    transition={transition}
-                    src={glassesimoji}
+                    transition={{
+                        duration: 0.5,
+                        ease: "easeInOut",
+                        interval: 10,
+                    }} src={glassesimoji}
                     alt=""
                 />
 
                 <motion.div
-                    initial={{ top: "-4%", left: "74%" }}
+                    initial={{ top: "-4%", left: "80%" }}
                     whileInView={{ left: "71.5%" }}
-                    transition={transition}
-                    className="floating-div"
+                    transition={{
+                        duration: 0.5,
+                        ease: "easeInOut",
+                        interval: 10,
+                    }} className="floating-div"
                 >
                     <FloatinDiv img={crown} text1="Frontend" text2="Developer" />
                 </motion.div>
@@ -71,10 +77,12 @@ const Intro = () => {
                 <motion.div
                     initial={{ left: "9rem", top: "18rem" }}
                     whileInView={{ left: "0rem" }}
-                    transition={transition}
-                    className="floating-div"
+                    transition={{
+                        duration: 0.5,
+                        ease: "easeInOut",
+                        interval: 10,
+                    }} className="floating-div"
                 >
-                    {/* floatinDiv mein change hy dark mode ka */}
                     <FloatinDiv img={thumbup} text1="Backend" text2="Developer" />
                 </motion.div>
 
