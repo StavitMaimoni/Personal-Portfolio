@@ -50,4 +50,11 @@
         align-items: center;
         justify-content: center;
     }
+    
+    @media (orientation: portrait) and (max-width: 768px) {
+    .card {
+        height: 45vh;
+        padding: 0px 26px .2rem 26px;
+    }
+}
 }
