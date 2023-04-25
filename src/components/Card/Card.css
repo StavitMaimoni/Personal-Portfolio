@@ -11,7 +11,7 @@
     border: 7px solid var(--orangeCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
-    padding: 0px 26px 2rem 26px;
+    padding: 1rem 26px 2rem 26px;
 }
 
 .card span:nth-of-type(2) {
@@ -52,9 +52,8 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .card {
-        height: 25vh;
-        padding: 0px 26px 2rem 26px;
+        padding: .5rem 26px 1rem 26px;
     }
 }
