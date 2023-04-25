@@ -74,7 +74,7 @@ const Contact = () => {
                     <input type="text" name="user_name" className="user" placeholder="Name" />
                     <input type="email" name="user_email" className="user" placeholder="Email" />
                     <textarea name="message" className="user" placeholder="Message" />
-                    <input type="button" value="Send" className="button" onClick={handleSubmit} />
+                    <input type="button" value="Send" className="sendButton" onClick={handleSubmit} />
                     <div
                         className="blur c-blur1"
                         style={{ background: "var(--purple)" }}
