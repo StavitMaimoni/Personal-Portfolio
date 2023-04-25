@@ -63,7 +63,7 @@ const Intro = () => {
 
                   <motion.div
                     initial={{ top: "-4%", left: "10%" }}
-                    whileInView={{ left: "71.5%" }}
+                    whileInView={{ left: "65%" }}
                     transition={{
                         duration: 0.3,
                         ease: "easeInOut",
