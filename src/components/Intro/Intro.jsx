@@ -54,18 +54,18 @@ const Intro = () => {
                     initial={{ left: "-36%" }}
                     whileInView={{ left: "-24%" }}
                     transition={{
-                        duration: 0.5,
+                        duration: 0.3,
                         ease: "easeInOut",
                         interval: 10,
                     }} src={glassesimoji}
                     alt=""
                 />
 
-                <motion.div
-                    initial={{ top: "-4%", left: "80%" }}
+                  <motion.div
+                    initial={{ top: "-4%", left: "10%" }}
                     whileInView={{ left: "71.5%" }}
                     transition={{
-                        duration: 0.5,
+                        duration: 0.3,
                         ease: "easeInOut",
                         interval: 10,
                     }} className="floating-div"
@@ -78,7 +78,7 @@ const Intro = () => {
                     initial={{ left: "9rem", top: "18rem" }}
                     whileInView={{ left: "0rem" }}
                     transition={{
-                        duration: 0.5,
+                        duration: 0.3,
                         ease: "easeInOut",
                         interval: 10,
                     }} className="floating-div"
