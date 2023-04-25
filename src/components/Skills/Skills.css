@@ -78,3 +78,8 @@
         position: static;
     }
 }
+@media (orientation: portrait) and (max-width: 350px) {
+    .services {
+        margin-bottom: 10rem;
+    }
+}
