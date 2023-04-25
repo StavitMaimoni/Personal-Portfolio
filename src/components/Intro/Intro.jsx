@@ -15,9 +15,6 @@ import { Link } from "react-scroll";
 
 
 const Intro = () => {
-    // Transition
-    const transition = { duration: 2, type: "spring" };
-
     // context
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
