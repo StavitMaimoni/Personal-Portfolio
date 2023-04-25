@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 import Languages from "../../img/computer.png";
 import DatabaseImg from "../../img/database.png";
 import Frameworks from "../../img/js-frameworks.png";
-import Humble from "../../img/tools.png";
+import Tools from "../../img/tools.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -80,7 +80,7 @@ const Skills = () => {
                     transition={transition}
                 >
                     <Card
-                        emoji={Humble}
+                        emoji={Tools}
                         heading={"Tools"}
                         detail={
                             "Docker,Rest Api,Postman,Swagger,     Redux,Npm"
