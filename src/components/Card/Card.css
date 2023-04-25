@@ -51,4 +51,10 @@
         justify-content: center;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .card {
+        height: 25vh;
+        padding: 0px 26px 2rem 26px;
+    }
 }
