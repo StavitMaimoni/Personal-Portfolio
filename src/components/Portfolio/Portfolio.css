@@ -4,7 +4,10 @@
     justify-content: center;
     flex-direction: column;
     height:50vh;
+}
 
+.portfolio>span {
+    white-space:nowrap;
 }
 
 /* heading */
