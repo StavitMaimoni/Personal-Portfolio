@@ -32,9 +32,10 @@
 }
 
 .s-button {
-    width: 8rem;
-    height: 2rem;
+    width: 9rem;
+    height: 2.5rem;
     margin-top: 1rem;
+    font-size: 20px!important;
 }
 
 /* right sided */
