@@ -70,7 +70,7 @@ const Skills = () => {
                     <Card
                         emoji={Frameworks}
                         heading={"Frameworks"}
-                        detail={"Next.JS, React.JS, Angular.JS, Node.JS/Express"}
+                        detail={"React.JS, Angular.JS, Vue.JS, Next.JS, Node.JS/Express"}
                     />
                 </motion.div>
                 {/* 3rd */}
